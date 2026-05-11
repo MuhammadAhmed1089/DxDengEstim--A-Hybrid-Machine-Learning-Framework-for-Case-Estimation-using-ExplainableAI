@@ -2,6 +2,8 @@
 Dengue Predictor Punjab — FastAPI application entry point
 Run with:  uvicorn app:app --reload --port 5000
 """
+import utils.transport
+import utils.session
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))  # project root → config.py
